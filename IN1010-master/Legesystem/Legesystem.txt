@@ -1,0 +1,24 @@
+# Pasienter (navn, fnr)
+Aale Aalesen, 192929323
+Alex, 2010
+Jack Shit, 06081997
+Jens Hans Olsen, 11111143521
+Juni Olsen, 21049563451
+Petrolina Swiq, 24120099343
+Sven Svendsen, 10111224244
+# Legemidler (navn, type, pris, virkestoff [,styrke])
+Predizol, a, 450.00, 75.00, 8
+Paralgin Forte, b, 65.00, 400.00, 5
+Placebo Pianissimo, c, 10.00, 0.00
+Ibux, c, 240.00, 200.00
+# Leger (navn, kontrollid / 0 hvis vanlig lege)
+Dr. Cox, 0
+Dr. Hillestad Lovold, 0
+Dr. House, 12345
+Dr. Wilson, 0
+# Resepter (legemiddelnummer, legenavn, pasientID, reit)
+1, Dr. Cox, 2, 3
+2, Dr. Hillestad Lovold, 3, 10000
+0, Dr. House, 1, 1337
+3, Dr. Hillestad Lovold, 3, 2
+0, Dr. House, 4, 3
